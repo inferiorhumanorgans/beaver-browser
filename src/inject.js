@@ -26,7 +26,6 @@ let BeaverBrowser = {
     element.dispatchEvent(event);
   },
   doLogin: function() {
-    try {
     if (typeof(login) === "undefined" || login == null) {
       return;
     }
@@ -93,10 +92,6 @@ let BeaverBrowser = {
       }
     });
     return;
-  } catch(e) {
-    console.log("ERRX", e);
-    return;
-  }
   }
 }
 
