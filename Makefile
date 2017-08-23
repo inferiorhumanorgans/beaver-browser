@@ -1,7 +1,7 @@
 CHROME := "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 PACKED_EXTENSION := beaver-browser.crx
 SOURCE = $(wildcard src/*.js) $(wildcard src/*.html) $(wildcard static/*)
-DIST = dist/app.bundle.js dist/inject.bundle.js dist/index.html dist/host.json dist/manifest.json dist/package.json
+DIST = dist/app.bundle.js dist/inject.bundle.js dist/index.html dist/manifest.json
 
 .PHONY: all
 all: $(PACKED_EXTENSION)
