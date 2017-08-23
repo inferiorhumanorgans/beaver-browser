@@ -7,7 +7,7 @@
   "author":           "Alex Zepeda",
   "homepage_url":     "https://github.com/inferiorhumanorgans/beaver-browser",
   "browser_action": {
-    "default_icon":   "icon-lock.png",
+    "default_icon":   "beaver.png",
     "default_popup":  "index.html"
   },
   "permissions": [
